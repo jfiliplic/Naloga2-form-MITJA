@@ -22,13 +22,13 @@ h1 {
     margin: 0;
 }
 
-.flex-wrapper {
-    display: flex;
-    justify-content: center;
+.grid-wrapper {
+    display: grid;
     gap: 47px;
+    grid-template-columns: 1fr 1fr;
 }
 
-.flex-item1, .flex-item2 {
+.grid-item1, .grid-item2 {
     width: 100%;
     padding: 30px 36px 77px;
     background-color: lightgrey;
@@ -60,16 +60,16 @@ input {
         padding: 18px 32px 59px;
     }
 
-    .flex-wrapper {
-        flex-direction: column;
+    .grid-wrapper {
         gap: 40px;
+        grid-template-columns: 1fr;
     }
 
     h1 {
         padding-bottom: 28px;
     }
 
-    .flex-item1, .flex-item2 {
+    .grid-item1, .grid-item2 {
         padding: 30px 30px 77px;
     }
 }
