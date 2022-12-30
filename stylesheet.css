@@ -9,7 +9,6 @@ html, body {
 }
 
 main {
-    /* height: 100%; */
     max-width: 796px;
     margin: 0 auto;
     padding: 37px 33px 179px;
@@ -28,7 +27,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
 }
 
-.grid-item1, .grid-item2 {
+.grid-item {
     width: 100%;
     padding: 30px 36px 77px;
     background-color: lightgrey;
@@ -69,7 +68,7 @@ input {
         padding-bottom: 28px;
     }
 
-    .grid-item1, .grid-item2 {
+    .grid-item {
         padding: 30px 30px 77px;
     }
 }
