@@ -9,6 +9,7 @@ html, body {
 }
 
 main {
+    box-sizing: border-box;
     max-width: 796px;
     margin: 0 auto;
     padding: 37px 33px 179px;
@@ -28,7 +29,6 @@ h1 {
 }
 
 .grid-item {
-    width: 100%;
     padding: 30px 36px 77px;
     background-color: lightgrey;
     border-radius: 10px;
@@ -55,7 +55,7 @@ input {
 @media screen and (max-width: 710px) {
 
     main {
-        max-width: 286px;
+        max-width: 350px;
         padding: 18px 32px 59px;
     }
 
